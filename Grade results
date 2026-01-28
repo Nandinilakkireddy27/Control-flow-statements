@@ -1,0 +1,23 @@
+package problems;
+
+public class Check {
+
+	public static void main(String[] args) {
+		char grade='c';
+		if(grade=='A' || grade=='a') {
+			System.out.println("The marks are between 76-100");
+		}
+		else if(grade=='B' || grade=='b') {
+			System.out.println("The marks are between 51-75");
+		}
+		else if(grade=='C' || grade=='c') {
+			System.out.println("The marks are between 36-50");
+		}else if(grade=='F' || grade=='f') {
+			System.out.println("The marks are between 0-35");
+		}else {
+			System.out.println("Invalid Character");
+		}
+
+	}
+
+}
